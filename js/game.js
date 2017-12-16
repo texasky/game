@@ -1,4 +1,4 @@
-var game = new Phaser.Game(1200,750, Phaser.CANVAS, 'phaser-demo', {preload: preload, create: create, update: update, render: render});
+var game = new Phaser.Game(1200,750, Phaser.AUTO, 'phaser-demo', {preload: preload, create: create, update: update, render: render});
 
 var player;
 var smallEnemies;
