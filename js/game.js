@@ -52,7 +52,7 @@ function preload() {
     game.load.image('big-enemy', 'assets/game-images/big-enemy.png');
     game.load.image('big-enemy-bullet', 'assets/game-images/big-enemy-bullet.png');
     game.load.spritesheet('explosion', 'assets/game-images/explode.png', 128, 128);
-    game.load.bitmapFont('spacefont', 'assets/spacefont/spacefont.png', 'https://rawgit.com/texasky/game/master/spacefont.xml');
+    game.load.bitmapFont('spacefont', 'assets/spacefont/spacefont.png', 'assets/spacefont/spacefont.xml');
     game.load.image('boss', 'assets/game-images/boss.png');
     game.load.image('deathRay', 'assets/game-images/death-ray.png');
     game.load.audio('backgroundMusic', ['assets/audio/lightyears.mp3', 'assets/audio/lightyears.ogg']);
