@@ -43,7 +43,6 @@ var explosionSound;
 var playerHittingSound;
 
 function preload() {
-    game.load.image
     game.load.image('starfield', 'assets/game-images/starfield.png');
     game.load.image('back', 'assets/game-images/starfield1.png');
     game.load.image('ship', 'assets/game-images/player.png');
@@ -55,7 +54,7 @@ function preload() {
     game.load.bitmapFont('spacefont', 'assets/spacefont/spacefont.png', 'assets/spacefont/spacefont.xml');
     game.load.image('boss', 'assets/game-images/boss.png');
     game.load.image('deathRay', 'assets/game-images/death-ray.png');
-    game.load.audio('backgroundMusic', ['assets/audio/lightyears.mp3', 'assets/audio/lightyears.ogg']);
+    game.load.audio('backgroundMusic', 'assets/audio/lightyears.mp3');
     game.load.audio('game-over-sound', 'assets/audio/game-over.mp3');
     game.load.audio('shot-sound', 'assets/audio/shot3.mp3');
     game.load.audio('boss-sound', 'assets/audio/boss-shot1.mp3');
